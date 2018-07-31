@@ -1,0 +1,45 @@
+*{
+    font-family: 'Indie Flower', cursive;
+    background-color: #1616E8;
+}
+
+#conversation  {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.message__text {
+    display: block;
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 0 10px;
+    border-radius: 20px;
+    margin: 0 auto;
+
+}
+
+.message__bot {
+    display: block;
+    background-color: red;
+    color: black;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+
+.input__text {
+    margin: 0 auto;
+}
+
+.button__get {
+    margin: 0 auto;
+    background-color: orangered;
+    color: white;
+    border-radius: 10px;
+}
+
